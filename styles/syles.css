@@ -33,19 +33,6 @@ body {
   text-align: center;
 }
 
-#hero form {
-  display: flex;
-
-}
-
-#hero form input {
-  flex: 3;
-}
-
-#hero form button {
-  flex: 1;
-}
-
 #hero p {
   text-align: center;
 }
@@ -126,19 +113,6 @@ main#gallery .recent {
 }
 
 #call-to-action h2 {
-  flex: 1;
-}
-
-#call-to-action form {
-  flex: 1;
-  display: flex;
-}
-
-#call-to-action form input {
-  flex: 3;
-}
-
-#call-to-action form button {
   flex: 1;
 }
 
