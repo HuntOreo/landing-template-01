@@ -92,3 +92,18 @@ main#gallery .content .pins {
 main#gallery .card.recent {
   min-width: 75%;
 }
+
+/* Call to Action */
+#call-to-action {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#call-to-action .container {
+  margin: 0 10%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
