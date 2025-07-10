@@ -48,3 +48,37 @@ body {
 #hero p {
   text-align: center;
 }
+
+/* Gallery */
+main#gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main#gallery .card {
+  height: 250px;
+  max-width: 500px;
+  display: flex;
+  gap: 5px;
+}
+
+main#gallery .placeholder {
+
+  background-color: lightblue;
+  flex: 1;
+}
+
+main#gallery .content {
+  flex: 1;
+}
+
+main#gallery .card.recent {
+  min-width: 75%;
+}
