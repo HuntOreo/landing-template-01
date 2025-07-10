@@ -14,6 +14,7 @@ body {
   padding: 0;
 }
 
+/* Hero */
 #hero {
  height: 500px;
  display: flex;
@@ -57,7 +58,7 @@ main#gallery {
 
 .gallery-container {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -66,7 +67,7 @@ main#gallery .card {
   height: 250px;
   max-width: 500px;
   display: flex;
-  gap: 5px;
+  gap: 15px;
 }
 
 main#gallery .placeholder {
@@ -77,8 +78,17 @@ main#gallery .placeholder {
 
 main#gallery .content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
 }
 
+main#gallery .content .pins {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+/* The most recent article gets front stage */
 main#gallery .card.recent {
   min-width: 75%;
 }
