@@ -56,16 +56,25 @@ main#gallery {
   justify-content: center;
 }
 
-.gallery-container {
+main#gallery .gallery-container {
   display: flex;
-  gap: 15px;
+  flex-direction: column;
+  gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+}
+
+main#gallery .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 main#gallery .card {
-  height: 250px;
-  max-width: 500px;
+  min-height: 250px;
+  max-width: 45%;
   display: flex;
   gap: 15px;
 }
@@ -89,8 +98,15 @@ main#gallery .content .pins {
 }
 
 /* The most recent article gets front stage */
-main#gallery .card.recent {
-  min-width: 75%;
+main#gallery .recent-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+main#gallery .recent {
+  flex: 1;
+  max-width: 100%;
 }
 
 /* Call to Action */

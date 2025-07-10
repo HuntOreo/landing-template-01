@@ -1,0 +1,10 @@
+@media (max-width: 1100px) {
+  main#gallery .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main#gallery .cards-container .card {
+    max-width: 100%;
+  }
+} 
