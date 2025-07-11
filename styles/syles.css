@@ -13,3 +13,127 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Hero */
+#hero {
+ height: 500px;
+ display: flex;
+ align-items: center;
+}
+
+#hero .container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#hero p {
+  text-align: center;
+}
+
+/* Gallery */
+main#gallery {
+  display: flex;
+  justify-content: center;
+}
+
+main#gallery .gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+main#gallery .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+main#gallery .card {
+  min-height: 250px;
+  max-width: 45%;
+  display: flex;
+  gap: 15px;
+}
+
+main#gallery .placeholder {
+
+  background-color: lightblue;
+  flex: 1;
+}
+
+main#gallery .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+}
+
+main#gallery .content .pins {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+/* The most recent article gets front stage */
+main#gallery .recent-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+main#gallery .recent {
+  flex: 1;
+  max-width: 100%;
+}
+
+/* Call to Action */
+#call-to-action {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#call-to-action .container {
+  margin: 0 10%;
+  max-width: 800px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#call-to-action h2 {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 10%;
+}
+
+footer .footer-nav {
+  display: flex;
+}
+
+footer p {
+  margin-top: auto;
+}
