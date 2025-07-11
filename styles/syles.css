@@ -1,3 +1,7 @@
+:root {
+  --subtle-gray: rgba(128, 128, 128, 0.782);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -20,6 +24,7 @@ body {
  height: 500px;
  display: flex;
  align-items: center;
+ border-bottom: 1px solid var(--subtle-gray);
 }
 
 #hero .container {
@@ -32,10 +37,13 @@ body {
 
 #hero h1 {
   text-align: center;
+  font-family: "Nanum Myeongjo", 'Times New Roman', Times, serif;
+  font-size: 56px;
 }
 
 #hero p {
   text-align: center;
+  color: var(--subtle-gray);
 }
 
 /* Gallery */
@@ -51,6 +59,7 @@ main#gallery .gallery-container {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
+  margin: 10% 10px;
 }
 
 main#gallery .cards-container {
@@ -95,26 +104,6 @@ main#gallery .recent-container {
 main#gallery .recent {
   flex: 1;
   max-width: 100%;
-}
-
-/* Call to Action */
-#call-to-action {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-}
-
-#call-to-action .container {
-  margin: 0 10%;
-  max-width: 800px;
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#call-to-action h2 {
-  flex: 1;
 }
 
 /* Footer */
