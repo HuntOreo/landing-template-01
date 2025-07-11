@@ -41,6 +41,12 @@ body {
   font-size: 56px;
 }
 
+#hero .wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
 #hero p {
   text-align: center;
   color: var(--subtle-gray);

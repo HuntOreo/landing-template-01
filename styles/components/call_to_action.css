@@ -1,9 +1,9 @@
 /* Form */
 form {
   display: flex;
-  width: 400px;
-  margin: 0 auto;
+  max-width: 400px;
   gap: 5px;
+  flex: 1;
 }
 
 form input {
