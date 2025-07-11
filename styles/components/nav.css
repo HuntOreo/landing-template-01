@@ -11,7 +11,7 @@ nav .container {
 
 nav p {
   flex: 1;
-  font-family:"Nanum Myeongjo", 'Times New Roman', Times, serif;
+  font-family: var(--header-font);
   font-size: 28px;
   margin: 10px;
 }
