@@ -7,4 +7,14 @@
   main#gallery .cards-container .card {
     max-width: 100%;
   }
+
+  main#gallery .recent .placeholder {
+    width: 250px;
+    height: 250px;
+    flex: none;
+  }
+
+  main#gallery .recent h2 {
+    font-size: 22px;
+  }
 } 
