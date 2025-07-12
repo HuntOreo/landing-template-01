@@ -150,24 +150,3 @@ main#gallery .recent h2 {
   font-size: 36px;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  justify-content: center;
-  min-height: 500px;
-}
-
-footer .container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  margin: 0 10%;
-}
-
-footer .footer-nav {
-  display: flex;
-}
-
-footer p {
-  margin-top: auto;
-}
