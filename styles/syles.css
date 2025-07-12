@@ -87,7 +87,7 @@ main#gallery .card {
 }
 
 main#gallery .placeholder {
-  background-color: lightcoral;
+  background-color: var(--secondary-color);
   border-radius: 10px;
   width: 250px;
   height: 250px;
