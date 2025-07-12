@@ -1,5 +1,8 @@
 :root {
+  --light-background: #e0dfe2;
   --subtle-gray: rgba(128, 128, 128, 0.782);
+  --dark-background: #272f37;
+  --secondary-color: #e6fd81;
   --primary-font: "Roboto", Arial, Helvetica, sans-serif;
   --header-font: "Nanum Myeongjo", 'Times New Roman', Times, serif;
 }
@@ -18,7 +21,7 @@ body {
   font-family: var(--primary-font);
   margin: 0;
   padding: 0;
-  background-color: lightgray;
+  background-color: var(--light-background);
 }
 
 /* Hero */
